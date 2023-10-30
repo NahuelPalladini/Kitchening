@@ -35,5 +35,26 @@
     width: 100%;
     text-align: center;
     text-transform: uppercase;
-    padding: 5px 0;
+    padding: 8px 0;
+}
+
+@media (min-width: 768px) {
+    
+    .header__logo {
+        border-radius: 50%;
+        border: 1px solid #9e9b9b;
+        width: 20%;
+    }
+    .header__bars {
+        display: none;
+    }
+    
+    .header__nav ul {
+        flex-direction: row;
+        gap: 10px;
+    }
+
+    .header__nav ul li {
+        font-size: 0.9rem;
+    }
 }
