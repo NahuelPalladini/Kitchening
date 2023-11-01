@@ -9,6 +9,7 @@ body{
     background-image: url('/img/bg-body.png');
     max-width: 1180;
     padding: 0 10px;
+    margin: 0 auto;
 }
 
 a {

@@ -51,7 +51,7 @@ p {
     color: gray
 }
 
-@media (width: 768px ) {
+@media (min-width: 768px ) {
     .home__main__banner {
         display: block;
     }
@@ -61,10 +61,16 @@ p {
         flex-wrap: wrap; /* Respeta el ancho de tus hijos */
         justify-content: space-between;
         margin-top: 20px;
-        width: 100%;
+        /* width: 100%; */
     }
     .home__main__product{
         width: 49%;
     }
     
+}
+
+@media (min-width: 1024px ) {
+    .home__main__product{
+        width: 32%;
+    }
 }
