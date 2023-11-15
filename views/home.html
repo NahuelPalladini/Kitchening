@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Kitchening | Home</title>
     <link rel="stylesheet" href="/css/styles.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <script
       src="https://kit.fontawesome.com/d797b1fcfc.js"
       crossorigin="anonymous"
@@ -21,12 +22,12 @@
 
         <nav class="header__nav">
           <ul>
-            <li><a href="">Home</a></li>
-            <li><a href="">Quienes</a></li>
-            <li><a href="">Servicio</a></li>
-            <li><a href="">Portafolio</a></li>
-            <li><a href="">Sucursales</a></li>
-            <li><a href="">Contacto</a></li>
+            <li class="animate__animated animate__fadeInDown"><a href="/">Home</a></li>
+            <li class="animate__animated animate__fadeInDown animate__delay-1s"><a href="#">Quienes</a></li>
+            <li class="animate__animated animate__fadeInDown animate__delay-2s"><a href="#">Servicio</a></li>
+            <li class="animate__animated animate__fadeInDown animate__delay-3s"><a href="#">Portafolio</a></li>
+            <li class="animate__animated animate__fadeInDown animate__delay-4s"><a href="#">Sucursales</a></li>
+            <li class="animate__animated animate__fadeInDown animate__delay-5s"><a href="/contac">Contacto</a></li>
           </ul>
         </nav>
       </header>
@@ -38,7 +39,7 @@
 
         <!-- Productos -->
         <div class="home__main__products">
-          <article class="home__main__product">
+          <article class="home__main__product" data-aos="flip-left" data-aos-duration="500" >
             <div class="photo-container">
               <img class="photo-container-productos" src="/img/img-pdto-1.jpg" alt="img 1">
               <img class="photo-container-especial" src="/img/img-nuevo.png" alt="plato nuevo">
@@ -54,7 +55,7 @@
               <a class="more" href="#"> ver mas</a>
             
           </article>
-          <article class="home__main__product">
+          <article class="home__main__product" data-aos="flip-left" data-aos-duration="1000" >
             <div class="photo-container">
             <img class="photo-container-productos" src="/img/img-pdto-2.jpg" alt="img 2">
             <img class="photo-container-especial" src="/img/img-gratis.png" alt="free">
@@ -69,7 +70,7 @@
             </p>
             <a class="more" href="#"> ver mas</a>
           </article>
-          <article class="home__main__product">
+          <article class="home__main__product" data-aos="flip-left" data-aos-duration="1500" >
             <div class="photo-container">
             <img class="photo-container-productos" src="/img/img-pdto-3.jpg" alt="img 3">
             <img class="photo-container-especial" src="/img/img-descuento.png" alt="img-descuento">
@@ -84,7 +85,7 @@
             </p>
             <a class="more" href="#"> ver mas</a>
           </article>
-          <article class="home__main__product">
+          <article class="home__main__product " data-aos="flip-left" data-aos-duration="500" >
             <div class="photo-container">
             <img class="photo-container-productos" src="/img/img-pdto-1.jpg" alt="img 2" >
             <img class="photo-container-especial" src="/img/img-gratis.png" alt="free">
@@ -99,7 +100,7 @@
             </p>
             <a class="more" href="#"> ver mas</a>
           </article>
-          <article class="home__main__product">
+          <article class="home__main__product" data-aos="flip-left" data-aos-duration="1000" >
             <div class="photo-container">
             <img class="photo-container-productos" src="/img/img-pdto-2.jpg" alt="img 3">
             <img class="photo-container-especial" src="/img/img-nuevo.png" alt="plato nuevo">
@@ -114,7 +115,7 @@
             </p>
             <a class="more" href="#"> ver mas</a>
           </article>
-          <article class="home__main__product">
+          <article class="home__main__product" data-aos="flip-left" data-aos-duration="1500">
             <div class="photo-container">
             <img class="photo-container-productos" src="/img/img-pdto-3.jpg" alt="img 1">
             <img class="photo-container-especial" src="/img/img-descuento.png" alt="img-descuento">
@@ -146,5 +147,9 @@
         </nav>
       </footer>
     </div>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
   </body>
 </html>

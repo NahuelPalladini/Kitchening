@@ -9,7 +9,8 @@
 .header__logo {
     border-radius: 50%;
     border: 1px solid #9e9b9b;
-    width: 50%;
+    width: 180px;
+    animation:rotate-scale-up 2s infinite;
 }
 
 .header__bars {
@@ -31,11 +32,18 @@
 }
 
 .header__nav ul li {
-    background-color: #9e9b9b;
+    background-color: #3b3b3b;
     width: 100%;
     text-align: center;
     text-transform: uppercase;
     padding: 10px 0;
+    display: inline-block;
+    transition-property: background-color;
+    transition-duration: 1s;
+}
+
+.header__nav ul li:hover{
+    background-color: #696464;
 }
 
 @media (min-width: 768px) {
